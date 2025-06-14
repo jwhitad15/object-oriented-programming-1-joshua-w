@@ -84,7 +84,8 @@ public class ClassroomManager {
                 } else {
                     System.out.println("Enter bonus points:");
                     double bonusPoints = Double.parseDouble(scanner.nextLine());
-                    student.addBonusPoints(bonusPoints);
+                    double grade = 0;
+                    student.addBonusPoints(grade, bonusPoints);
                     System.out.println("Bonus points added successfully!");
                 }
             } else if (choice.equals("6")) {

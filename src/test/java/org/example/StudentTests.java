@@ -40,7 +40,7 @@ public class StudentTests {
     @Test
     public void testAddBonusPoints() {
         Student student = new Student("Alice", 90.0, 0);
-        student.addBonusPoints(5.0);
+        student.addBonusPoints(5.0, 3.4);
         assertEquals(95.0, student.getGrade(), 0.0);
     }
 }
